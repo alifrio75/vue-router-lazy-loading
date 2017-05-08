@@ -1,11 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Hello from '@/components/Hello';
-// import Foo from '@/components/Foo';
-import {
-  Foo,
-  Bar,
-} from './chunks';
+import GroupView from './chunks';
 
 Vue.use(Router);
 
@@ -19,12 +15,12 @@ export default new Router({
     {
       path: '/foo',
       name: 'Foo',
-      component: Foo,
+      component: GroupView('Foo'),
     },
     {
       path: '/bar',
       name: 'Bar',
-      component: Bar,
+      component: GroupView('Bar'),
     },
   ],
 });

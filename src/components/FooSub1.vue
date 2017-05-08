@@ -5,6 +5,6 @@
 <script>
 /* eslint-disable */
 export default {
-  name: 'sub foo random name',
+  name: 'SubFoo-1',
 };
 </script>

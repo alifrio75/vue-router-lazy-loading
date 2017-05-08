@@ -1,12 +1,17 @@
 # lazy-loading
 
 > A vue lazy loading example.
+https://router.vuejs.org/en/advanced/lazy-loading.html
 
 ## References
 
 - https://router.vuejs.org/en/advanced/lazy-loading.html
 - https://webpack.js.org/guides/code-splitting-async/
 - https://webpack.js.org/guides/code-splitting-async/#examples
+
+### async/await support with Babel.
+- https://webpack.js.org/guides/code-splitting-async/#dynamic-import-import-
+- https://webpack.js.org/guides/code-splitting-async/#usage-with-babel-and-async-await
 
 ## Build Setup
 
