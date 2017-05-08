@@ -2,6 +2,12 @@
 
 > A vue lazy loading example.
 
+## References
+
+- https://router.vuejs.org/en/advanced/lazy-loading.html
+- https://webpack.js.org/guides/code-splitting-async/
+- https://webpack.js.org/guides/code-splitting-async/#examples
+
 ## Build Setup
 
 ``` bash
